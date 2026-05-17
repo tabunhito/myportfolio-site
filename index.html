@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tabunnhito | ポートフォリオ</title>
+  <meta name="description" content="大学生・ブロガー tabunnhito のポートフォリオサイト。Webライティング、WordPress、AI活用が得意です。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">tabunnhito</a>
+      <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Web Writer / Blogger</p>
+        <h1 class="hero-title">tabunnhito</h1>
+        <p class="hero-lead">
+          ブログ「ヒトブログ」を運営する大学生ライターです。<br />
+          言葉とAIを使って、伝わるコンテンツをつくります。
+        </p>
+        <div class="hero-actions">
+          <a href="#works" class="btn btn-primary">実績を見る</a>
+          <a href="#contact" class="btn btn-ghost">お問い合わせ</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-text">
+          現在、大学に通いながらブログ「ヒトブログ」を運営しています。
+          日々の学びや気づきを記事として発信するなかで、
+          読者に伝わる文章づくりとWebメディアの運用スキルを磨いてきました。
+          クラウドワークスでの記事執筆も経験し、
+          ライティングを軸に活動の幅を広げています。
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="card-grid">
+          <article class="card reveal">
+            <h3 class="card-title">Webライティング</h3>
+            <p class="card-text">
+              読者の目的に寄り添い、わかりやすく伝わる記事を執筆します。
+              構成づくりからSEOを意識した文章まで対応します。
+            </p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card-title">WordPress</h3>
+            <p class="card-text">
+              ブログ運営を通して培ったWordPressの構築・運用スキル。
+              記事の公開からカスタマイズまで一通り扱えます。
+            </p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card-title">AI活用</h3>
+            <p class="card-text">
+              生成AIを執筆のリサーチや構成づくりに活用。
+              効率と品質の両立を意識した制作フローを実践しています。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <div class="container">
+        <h2 class="section-title">Works</h2>
+        <div class="card-grid">
+          <article class="card reveal">
+            <h3 class="card-title">ブログ「ヒトブログ」運営</h3>
+            <p class="card-text">
+              自身のブログを企画・執筆・運用。
+              テーマ設定から記事の継続的な発信までを一人で担当しています。
+            </p>
+            <!-- TODO: ブログURLに差し替えてください -->
+            <a href="https://example.com/hitoblog" class="card-link" target="_blank" rel="noopener">ブログを見る →</a>
+          </article>
+          <article class="card reveal">
+            <h3 class="card-title">クラウドワークスで記事執筆</h3>
+            <p class="card-text">
+              クラウドワークスを通じて、クライアント向けの記事執筆を担当。
+              ジャンルや要件に合わせたライティングを行ってきました。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-text">
+          お仕事のご相談やご連絡は、以下のフォームまたはSNSからお気軽にどうぞ。
+        </p>
+        <div class="contact-links">
+          <!-- TODO: ブログURLに差し替えてください -->
+          <a href="https://example.com/hitoblog" class="contact-link" target="_blank" rel="noopener">ヒトブログ</a>
+          <!-- TODO: XのプロフィールURLに差し替えてください -->
+          <a href="https://x.com/your-account" class="contact-link" target="_blank" rel="noopener">X (Twitter)</a>
+        </div>
+
+        <!-- TODO: action の your-form-id を Formspree (https://formspree.io) で取得したIDに差し替えてください -->
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+          <div class="form-row">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <button type="submit" class="btn btn-primary">送信する</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> tabunnhito. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
